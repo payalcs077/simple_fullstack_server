@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple App</title>
+    <title>Pink App 💖</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffc0cb, #ff69b4);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            width: 300px;
+        }
+
+        h1 {
+            color: #ff1493;
+        }
+
+        button {
+            background: #ff69b4;
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #ff1493;
+            transform: scale(1.05);
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Frontend</h1>
+
+<div class="container">
+    <h1>Hi!! I am Meow!</h1>
     <button onclick="getData()">Get Message</button>
     <p id="result"></p>
+</div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
